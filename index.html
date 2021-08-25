@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--폰트 적용-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <!--동적애니매이션 움직임-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--css 적용-->
+    <link href="public/stylesheets/main.css" rel="stylesheet">
+    <!--타이틀 이미지 넣기-->
+    <link href="public/images/01.main/title_logo.png" rel="shortcut icon" type="image/x-icon">
+
+    <title>Data Infuser</title>
+
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow" style="background-color: white;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="public/images/01.main/01.logo.png" alt="" width="130" height="36"
+                        style="margin-bottom: 17px;"></a>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="flase" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact_us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Docs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="docs-1.html">What is Data Infuser?</a></li>
+                                <li><a class=" dropdown-item" href="docs-2.html">How to use?</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="getstarted-button" style="margin-left: 10px;">
+                            <a href="https://github.com/Data-Infuser" target="_blank">
+                                <button type="button" class="btn btn-dark" style="width: 170px; height:40px;border:0; outline:0; border-radius: 12px; background: 
+                                    #b5223e;">Get Started</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container-fulid">
+            <div class="main-main_top">
+                <div class="main-main_title text-center">
+                    <h1 id="bold">Open-source API Generator</h1>
+                </div>
+                <div class="main-main_text m-4 text-center ">
+                    <p>Converts raw data to REST API. </br>
+                        Provides convenient API management and efficient deployment.</br>
+                        <storng id="font-red">Everything you need is in the Data Infuser.</storng>
+                    </p>
+                </div>
+
+                <div class="main-maintop_buttons p-4 text-center">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto">
+                            <a href="https://github.com/Data-Infuser" target="_blank">
+                                <button class="btn btn-primary p-3 shadow" id="github_button">Github ></button></a>
+                        </div>
+                        <div class="col-md-auto">
+                            <a href="contact_us.html">
+                                <button class="btn btn-primary p-3 shadow" id="contact_button">Contact ></button> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-main_video p-4">
+                    <div class="main-video_icon">
+                        <a href="public/video/main_video.mp4" target="_blank"><img class="video-icon"
+                                src="public/images/01.main/play button.png" data-aos="zoom-out"
+                                data-aos-duration="500"></a>
+                    </div>
+                    <div class="main-main_image">
+                        <!-- css에서 설정함 -->
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="main-about">
+                <div class="main-about_top text-center" data-aos="fade-down" data-aos-duration="1700">
+                    <div class="main-about_title mb-4">
+                        <h2 id="bold">About</h2>
+                    </div>
+                    <div class="main-about_text">
+                        <h4><strong>Free, Convenient, and Proven API Generator</strong></h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-about_bg">
+                <div class="main-about_context container p-5" data-aos="fade-down" data-aos-duration="1700">
+                    <div class="row justify-content-md-center align-items-center">
+                        <div class="main-about_text col-sm-5 text-center">
+                            <img class="about_img" src="public/images/01.main/04.about.png">
+                        </div>
+                        <div class="about_text col-sm-5">
+                            <p>Data Infuser is an open-source API generator that transforms files
+                                or DBMS into REST API. By Data Infuser, you can easily develop API without coding and
+                                administer and distribute your API. <br>
+                                <br>
+                                In addition, Data Infuser guarantees high accessibility, light and rapid performance,
+                                and solid security. Currently, Data Infuser is adopted by many data-related businesses
+                                and has endless possibilities to be used in the future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-use container p-5" data-aos="fade-down" data-aos-duration="1700">
+                    <div class="main-use_title text-center mt-5">
+                        <h2><strong>Why you should use <span id="font-red">Data Infuser</span></strong></h2>
+                    </div>
+                    <div class="main-use_contents mt-5">
+                        <div class="row justify-content-md-center">
+                            <div class="use_contents col-sm-4 text-center">
+                                <img class="main-use_icon mb-5" src="public/images/01.main/05.icon1.png">
+                                <h4>Open-source</h4>
+                                <p>Free software environment for <br>
+                                    API creation and management </p>
+                            </div>
+
+                            <div class="use_contents col-sm-4 text-center">
+                                <img class="main-use_icon mb-5" src="public/images/01.main/06.icon2.png">
+                                <h4>Easy to use</h4>
+                                <p>FInstantly produces a fully <br>
+                                    documented REST API
+                            </div>
+
+                            <div class="use_contents col-sm-4 text-center">
+                                <img class="main-use_icon mb-5" src="public/images/01.main/07.icon3.png">
+                                <h4>Convenient Management</h4>
+                                <p>Monitors your API <br>
+                                    with the Manager tool
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-experience container p-5 mt-5" data-aos="fade-down" data-aos-duration="1700">
+                <div class="main-experience_title text-center mt-5 p-3">
+                    <h2><strong>Make an amazing experience with <span id="font-red">Data Infuser</span></strong></h2>
+                </div>
+                <div class="main-experience_text text-center mt-1">
+                    <p>Today, Data Infuser is being leveraged by many data-related businesses. <br>
+                        It is provided in Open API services of 14 public institutions including Public Data Portal,<br>
+                        Ministry of Foreign Affairs, and National Cancer Center. <br>
+                        <br>
+                        With Data Infuser, you can easily manage from API creation to deployment.
+                    </p>
+                </div>
+
+                <div class="main-company_imgs">
+
+                    <div class="row align-items-center row-cols-2 row-cols-lg-5 g-lg-4">
+                        <div data-aos="flip-left" data-aos-duration="1000">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center01.png">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center02.png"
+                                        style="max-width: 70%; height: 20%; margin: 7%;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center03.png"
+                                        style="max-width: 70%; height: 16%; margin: 7%;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center04.png"
+                                        style="max-width: 66%; height: 3%; margin: 5%;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center05.png"
+                                        style="max-width: 70%; height: 35%; margin: 13%;">
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center06.png"
+                                        style="max-width: 80%; height: 100%; margin: 10%;">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center07.png"
+                                        style="max-width: 65%; height: 30%; margin: 7%;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center08.png">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center09.png">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="flip-left" data-aos-duration="1400">
+                            <div class="col">
+                                <div class="p-3 text-center shadow" id="company_image">
+                                    <img id="c-img" src="public/images/01.main/center10.png">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-contact p-5 mt-5"> <!--백그라운드-->
+                <div class="main-contact_contents container" data-aos="fade-left" data-aos-duration="1700" 
+                style="display: flex; flex-wrap: wrap; "> <!--컨테이너-->
+                        <div class="main-contact_title">
+                            <div class="">
+                                <h2 id="font-red"><strong>Contact Us</strong></h2>
+                                <br>
+                                <p>Do you have any questions about Data Infuser?<br>
+                                    Send us a message here. <br>
+                                    We'd love to hear from you.</p>
+                            </div>
+                        </div>
+                        <div class="contact_form ">
+                        <div class="" id="form-width">
+                            <form class="gform" method="POST" data-email="banggi1124@gmail.com" 
+                            action="https://script.google.com/macros/s/AKfycbyBm8xpXFd543fXMVhC5Edum9pmSS1YOu6KuHzMWg/exec">
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="exampleFormControlInput1" class="form-label">First name</label>
+                                        <input type="text" class="form-control" placeholder="First name"
+                                            aria-label="First name" name="name">
+                                    </div>
+                                    <div class="col">
+                                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                                        <input type="text" class="form-control" placeholder="Last name"
+                                            aria-label="Last name" >
+                                    </div>
+                                </div>
+                                <div class="mb-3 pt-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email<span
+                                            class="font-red">*</span></label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Your Email" required="" name="email">
+                                </div>
+                                <div class="mb-3 pt-2">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message<span
+                                            class="font-red">*</span></label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" required=""
+                                        rows="3" name="message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark contact" style="width: 200px; height:40px; border:0; outline:0; border-radius: 12px; margin-top:10px; background: 
+                            #b5223e;">Submit</button>
+                            </form>
+
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_section p-5">
+            <div class="container mt-3">
+                <img class="pb-3 footer_img" src="public/images/01.main/footer_logo.png">
+                <p>Name: Prompt Technology CEO: Jonghoon Chun, Ph.D.<br>
+                    Address: Nonhyeon-ro 81-gil 12, Gangnam-gu, Seoul (Yeoksam-dong, Jo & Lee Building)<br>
+                    Contact: (t) 02-553-6441 (f) 02-553-6442 Email: promptech@promptech.co.kr</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--email 제출-->
+    <script data-cfasync="false" type="text/javascript" 
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js">
+</script> 
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!--동적 애니메이션 부분-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

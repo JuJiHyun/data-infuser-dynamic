@@ -1,0 +1,78 @@
+@media (min-width:1100px){
+    .docs1-content{
+        padding: 120px;
+        margin-top: -100px;
+    }
+
+}
+
+
+@media (max-width:993px) {
+
+    .getstarted-button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: right;
+    }
+
+}
+
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #b5223e;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color : #2a0101;
+}
+
+.docs-banner{
+    background: url(../images/03.banner/01.banner.png);
+    background-size: cover;
+}
+
+.banner_title{
+    font-weight: 600;
+
+}
+
+.lag{
+    padding-top: 20px;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+
+
+.footer_section{
+    background: linear-gradient(
+        to top, 
+        rgba(122, 122, 122, 0) 10%,
+        rgba(122, 122, 122, 0) 25%,
+        rgba(122, 122, 122, 0) 10%,
+        rgba(122, 122, 122, 0) 50%,
+        rgba(122, 122, 122, 0) 75%,
+        rgba(122, 122, 122, 0.1) 100%
+    );
+}
+
+
+.footer_img{
+    width: 200px;
+
+}
+
+#font-red{
+    color:#b5223e;
+}
+
+#bold{
+    font-weight: 760;
+}

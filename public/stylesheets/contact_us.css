@@ -1,0 +1,65 @@
+
+@media (max-width:993px) {
+
+    .getstarted-button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: right;
+    }
+
+}
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #b5223e;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color : #2a0101;
+}
+
+.contactus{
+
+
+    background : url("../images/03.banner/03.contact_back.png");
+    background-size: cover;
+    position: relative;
+}
+
+.contact-form_position{
+    width: 50%;
+    max-width: 800px;
+    min-width: 290px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 60px;
+}
+
+.contactus_text{
+    
+}
+
+.footer_section{
+    background: linear-gradient(
+        to top, 
+        rgba(122, 122, 122, 0) 10%,
+        rgba(122, 122, 122, 0) 25%,
+        rgba(122, 122, 122, 0) 10%,
+        rgba(122, 122, 122, 0) 50%,
+        rgba(122, 122, 122, 0) 75%,
+        rgba(122, 122, 122, 0.1) 100%
+    );
+}
+
+.footer_img{
+    width: 200px;
+
+}
+
+#font-red{
+    color:#b5223e;
+}
